@@ -1,0 +1,36 @@
+.preview-close {
+  position: relative;
+}
+
+.preview-close {
+  position: absolute;
+  top: -10;
+  margin: 5px;
+  font-size: 25px !important;
+  cursor: pointer;
+  color: white;
+}
+
+.preview-footer {
+  position: absolute;
+  top: 490px;
+  margin-left: 300px;
+  transform: translate(-50%, 50%);
+  background-color: yellow;
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 30px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.preview-footer > h2 {
+  font-size: 12px;
+  margin-right: 3px;
+}
+
+.preview-sendIcon {
+  font-size: 10px !important;
+}
